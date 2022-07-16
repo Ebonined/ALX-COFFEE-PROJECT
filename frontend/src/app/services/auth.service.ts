@@ -19,7 +19,6 @@ export class AuthService {
   payload: any;
 
   constructor() { }
-
   build_login_link(callbackPath = '') {
     let link = 'https://';
     link += this.url + '.auth0.com';
